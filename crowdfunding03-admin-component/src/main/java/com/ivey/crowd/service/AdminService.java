@@ -2,6 +2,8 @@ package com.ivey.crowd.service;
 
 import com.ivey.crowd.entity.Admin;
 
+import java.util.List;
+
 /**
  * @Description
  * @Author IveyLv
@@ -11,4 +13,6 @@ import com.ivey.crowd.entity.Admin;
 public interface AdminService {
 
     int saveAdmin(Admin admin);
+
+    List<Admin> getAll();
 }
