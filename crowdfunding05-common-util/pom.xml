@@ -9,5 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <!-- Servlet 支持 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
