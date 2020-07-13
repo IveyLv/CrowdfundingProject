@@ -15,6 +15,17 @@
         <module>crowdfunding05-common-util</module>
         <module>crowdfunding06-common-reverse</module>
         <module>springsecurity-helloworld</module>
+        <module>crowdfunding07-member-parent</module>
+        <module>crowdfunding08-member-eureka</module>
+        <module>crowdfunding09-member-entity</module>
+        <module>crowdfunding10-member-mysql-provider</module>
+        <module>crowdfunding11-member-redis-provider</module>
+        <module>crowdfunding12-member-authentication-consumer</module>
+        <module>crowdfunding13-member-project-consumer</module>
+        <module>crowdfunding14-member-order-consumer</module>
+        <module>crowdfunding15-member-pay-consumer</module>
+        <module>crowdfunding16-member-zuul</module>
+        <module>crowdfunding17-member-api</module>
     </modules>
 
     <properties>

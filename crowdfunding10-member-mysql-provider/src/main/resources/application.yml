@@ -1,0 +1,24 @@
+server:
+  port: 2000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+spring:
+  application:
+    name: crowd-mysql-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_crowdfunding_project?useSSL=false
+    username: root
+    password: 504976333
+
+mybatis:
+  mapper-locations: classpath*:/mybatis/mapper/*Mapper.xml
+
+logging:
+  level:
+    com.ivey.crowd.mapper: debug
+    com.ivey.crowd.test: debug
